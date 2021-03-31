@@ -177,6 +177,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/liber/proprietary/vendor/lib64/camera/com.qti.sensormodule.ofilm_mot_liber_s5k4h7_legacy.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.ofilm_mot_liber_s5k4h7_legacy.bin \
     vendor/motorola/liber/proprietary/vendor/lib64/camera/com.qti.sensormodule.ofilm_mot_liber_s5kgw1.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.ofilm_mot_liber_s5kgw1.bin \
     vendor/motorola/liber/proprietary/vendor/lib64/camera/com.qti.sensormodule.sunny_mot_liber_s5k5e9.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.sunny_mot_liber_s5k5e9.bin \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.default.bin \
     vendor/motorola/liber/proprietary/vendor/lib64/camera/com.qti.tuned.mot_liber_ov16a1q.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_liber_ov16a1q.bin \
     vendor/motorola/liber/proprietary/vendor/lib64/camera/com.qti.tuned.mot_liber_s5kgw1.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_liber_s5kgw1.bin \
     vendor/motorola/liber/proprietary/vendor/lib64/camera/com.qti.tuned.mot_ov2180_rear.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_ov2180_rear.bin \
@@ -184,30 +185,94 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/liber/proprietary/vendor/lib64/camera/com.qti.tuned.mot_s5k5e9_rear.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_s5k5e9_rear.bin \
     vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.arcsoft.node.dc_capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.arcsoft.node.dc_capture.so \
     vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.arcsoft.node.smooth_transition.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.arcsoft.node.smooth_transition.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.camx.chiiqutils.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv2.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qti.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv3.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qti.hvx.addconstant.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.hvx.addconstant.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qti.hvx.binning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.hvx.binning.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qti.node.depth.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.depth.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qti.node.dummyrtb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.dummyrtb.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qti.node.dummysat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.dummysat.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qti.node.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.eisv2.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qti.node.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.eisv3.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qti.node.fcv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.fcv.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qti.node.gpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.gpu.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qti.node.memcpy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.memcpy.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qti.node.remosaic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.remosaic.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qti.node.stich.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.stich.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qti.node.swcac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.swcac.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qti.node.swregistration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.swregistration.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qti.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.aec.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qti.stats.aecwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.aecwrapper.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qti.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.af.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qti.stats.afd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.afd.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qti.stats.afwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.afwrapper.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qti.stats.asd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.asd.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qti.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.awb.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qti.stats.awbwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.awbwrapper.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qti.stats.haf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.haf.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qti.stats.hafoverride.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.hafoverride.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qti.stats.localhistogram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.localhistogram.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qti.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.pdlib.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qti.stats.pdlibsony.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.pdlibsony.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qti.stats.pdlibwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.pdlibwrapper.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.aec.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.af.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.awb.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.pdlib.so \
     vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.vidhance.node.eis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.vidhance.node.eis.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/com.vidhance.stats.aec_dmbr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.vidhance.stats.aec_dmbr.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/libdepthmapwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/libdepthmapwrapper.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/components/libmmcamera_cac3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/libmmcamera_cac3.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreview.bin \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreviewlite.bin \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideo.bin \
+    vendor/motorola/liber/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin \
     vendor/motorola/liber/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
     vendor/motorola/liber/proprietary/vendor/lib64/com.motorola.hardware.biometric.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.motorola.hardware.biometric.fingerprint@1.0.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.qcom.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.override.so \
     vendor/motorola/liber/proprietary/vendor/lib64/hw/fingerprint.goodix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix.default.so \
     vendor/motorola/liber/proprietary/vendor/lib64/libarcsoft_distortion_correction.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_distortion_correction.so \
     vendor/motorola/liber/proprietary/vendor/lib64/libarcsoft_zoomtranslator_imp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_zoomtranslator_imp.so \
     vendor/motorola/liber/proprietary/vendor/lib64/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbase64.so \
     vendor/motorola/liber/proprietary/vendor/lib64/libcamera2ndk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera2ndk_vendor.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_nn_stub.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/libcamxfdalgov7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdalgov7.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/libcamxfdalgov8.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdalgov8.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdengine.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/libcamxstatscore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxstatscore.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/libcamxswprocessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxswprocessalgo.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxtintlessalgo.so \
     vendor/motorola/liber/proprietary/vendor/lib64/libcapiv2svacnn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2svacnn.so \
     vendor/motorola/liber/proprietary/vendor/lib64/libcapiv2svarnn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2svarnn.so \
     vendor/motorola/liber/proprietary/vendor/lib64/libcapiv2vop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2vop.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcom.qti.chinodeutils.so \
     vendor/motorola/liber/proprietary/vendor/lib64/libfcell.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfcell.so \
     vendor/motorola/liber/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
     vendor/motorola/liber/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
     vendor/motorola/liber/proprietary/vendor/lib64/libgoodixhwfingerprint.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixhwfingerprint.so \
     vendor/motorola/liber/proprietary/vendor/lib64/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc.so \
     vendor/motorola/liber/proprietary/vendor/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc2.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/libmot_afd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmot_afd.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/libmot_lux_standardization.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmot_lux_standardization.so \
     vendor/motorola/liber/proprietary/vendor/lib64/libmotext_inf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmotext_inf.so \
     vendor/motorola/liber/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
     vendor/motorola/liber/proprietary/vendor/lib64/libmulticam_optical_zoom_control.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmulticam_optical_zoom_control.so \
     vendor/motorola/liber/proprietary/vendor/lib64/libmulticam_video_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmulticam_video_optical_zoom.so \
     vendor/motorola/liber/proprietary/vendor/lib64/libnpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnpu.so \
     vendor/motorola/liber/proprietary/vendor/lib64/libpopup.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpopup.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/libsns_device_mode_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_device_mode_stub.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/libsns_fastRPC_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_fastRPC_util.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_low_lat_stream_stub.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/libsns_registry_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_registry_skel.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/libsnsapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnsapi.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/libsnsdiaglog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnsdiaglog.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/libssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswregistrationalgo.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswvdec.so \
     vendor/motorola/liber/proprietary/vendor/lib64/libsysmon_cdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysmon_cdsp_skel.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance.so \
     vendor/motorola/liber/proprietary/vendor/lib64/libvl53l1_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvl53l1_daemon.so \
     vendor/motorola/liber/proprietary/vendor/lib64/libvl53l1_daemon_main.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvl53l1_daemon_main.so \
     vendor/motorola/liber/proprietary/vendor/lib64/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxml.so \
